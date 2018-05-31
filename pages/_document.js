@@ -7,7 +7,6 @@ import getPageContext from '../libs/getPageContext'
 class MyDocument extends Document {
     render() {
         const { pageContext } = this.props
-
         return (
             <html lang="zh-CN" dir="ltr">
                 <Head>
